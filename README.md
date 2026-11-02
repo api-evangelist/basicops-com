@@ -1,4 +1,4 @@
-# basicops-com
+# BasicOps
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-basicops-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://basicops.com/
+BasicOps provides a collaborative workspace where human teams and AI agents work together seamlessly. The platform combines project management, task tracking, and chat in a unified interface, enabling users to plan, collaborate, and execute work with AI assistance. Features include integrated tools such as Slack, Zoom, Google Drive, and many others, offering unlimited tasks, messages, and storage across various plans. BasicOps aims to reduce context-switching and improve productivity by bringing all work contexts into one place.
+
+**Areas:** Collaboration · Project Management · AI Agents · Productivity · SaaS
+
+## BasicOps on APIs.io
+
+Everything profiled for BasicOps is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/basicops-com/](https://apis.io/providers/basicops-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [BasicOps API](https://apis.io/apis/basicops-com/basicops-api/) — API for managing projects, tasks, sections, and related resources in BasicOps.
+- [BasicOps API](https://apis.io/apis/basicops-com/basicops-com-api/) — BasicOps API as documented publicly: 49 operations. Contract generated from the documentation by API Evangelist (2026-11-02); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1WebhookResponse](https://apis.io/schemas/basicops-com/basicops-com-get-v1-webhook-response/)
+- [PostV1ChatResponse](https://apis.io/schemas/basicops-com/basicops-com-post-v1-chat-response/)
+- [PostV1GroupchatResponse](https://apis.io/schemas/basicops-com/basicops-com-post-v1-groupchat-response/)
+- [PostV1ProjectProjectidResponse](https://apis.io/schemas/basicops-com/basicops-com-post-v1-project-projectid-response/)
+- [PostV1WebhookRequest](https://apis.io/schemas/basicops-com/basicops-com-post-v1-webhook-request/)
+- [PutV1WebhookResponse](https://apis.io/schemas/basicops-com/basicops-com-put-v1-webhook-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Basicops Com Context](https://apis.io/jsonld/basicops-com/basicops-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [BasicOps API Rules](https://apis.io/rules/basicops-com/basicops-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Basicops Com Domain Security](https://apis.io/security/basicops-com/basicops-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Basicops Com Plans Pricing](https://apis.io/plans/basicops-com/basicops-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://basicops.com/)
+- [Documentation](https://developer.basicops.com/)
+- [API reference](https://developer.basicops.com/api-reference)
+- [Pricing](https://www.basicops.com/pricing/)
+- [Sign up](https://app.basicops.com/signup)
+- [Blog](https://www.basicops.com/blog/)
+- [Terms of service](https://www.basicops.com/terms-policy/)
+- [GitHub](https://github.com/BasicOps)
+
+## API Evangelist rating
+
+**Kin Score 44.6** — developing · rubric 0.25.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 62.6 |
+
+**Agent readiness 34.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/basicops-com/](https://apis.io/providers/basicops-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BasicOps: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/basicops-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
